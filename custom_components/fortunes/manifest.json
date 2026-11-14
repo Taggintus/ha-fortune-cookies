@@ -1,0 +1,13 @@
+{
+  "domain": "fortunes",
+  "name": "Fortunes",
+  "codeowners": ["@taggintus"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/Taggintus/ha-fortune-cookies",
+  "integration_type": "service",
+  "iot_class": "calculated",
+  "issue_tracker": "https://github.com/Taggintus/ha-fortune-cookies/issues",
+  "requirements": [],
+  "version": "0.2.0"
+}
