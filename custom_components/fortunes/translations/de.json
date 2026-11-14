@@ -3,23 +3,41 @@
     "step": {
       "user": {
         "title": "Fortunes",
-        "description": "Wähle die Sprache der Sprüche. Fehlen Fortune-Dateien in {path}/<Sprache>/, werden sie einmalig aus dem Debian-Archiv geladen. Die Sammlungen haben eigene Lizenzen, siehe README.",
-        "data": { "language": "Sprache" }
+        "description": "Wähle die Sprache der Sprüche. Enthält der Ordner für diese Sprache (z. B. {path}/de) keine Fortune-Dateien, werden sie einmalig aus dem Debian-Archiv geladen. Die Sammlungen haben eigene Lizenzen, siehe README.",
+        "data": {
+          "language": "Sprache"
+        }
       }
     },
     "error": {
       "download_failed": "Der Download aus dem Debian-Archiv ist fehlgeschlagen. Internetverbindung prüfen oder die Dateien manuell ablegen (siehe README, Details im Log).",
       "no_fortunes": "Für diese Sprache wurden keine brauchbaren Fortune-Dateien gefunden. Bitte die README beachten."
     },
-    "abort": { "single_instance_allowed": "Fortunes ist bereits eingerichtet." }
+    "abort": {
+      "single_instance_allowed": "Fortunes ist bereits eingerichtet."
+    }
   },
   "entity": {
-    "sensor": { "fortune": { "name": "Spruch" } },
-    "button": { "new_fortune": { "name": "Neuer Spruch" } },
+    "sensor": {
+      "fortune": {
+        "name": "Spruch"
+      }
+    },
+    "button": {
+      "new_fortune": {
+        "name": "Neuer Spruch"
+      }
+    },
     "select": {
       "language": {
         "name": "Sprache",
-        "state": { "de": "Deutsch", "en": "English", "fr": "Français", "es": "Español", "it": "Italiano" }
+        "state": {
+          "de": "Deutsch",
+          "en": "English",
+          "fr": "Français",
+          "es": "Español",
+          "it": "Italiano"
+        }
       }
     }
   }

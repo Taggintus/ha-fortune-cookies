@@ -3,23 +3,41 @@
     "step": {
       "user": {
         "title": "Fortunes",
-        "description": "Choose the language of the fortune cookies. If there are no fortune files in {path}/<language>/, they are downloaded once from the Debian archive. The collections have their own licenses, see the README.",
-        "data": { "language": "Language" }
+        "description": "Choose the language of the fortune cookies. If the folder for this language (for example {path}/de) contains no fortune files, they are downloaded once from the Debian archive. The collections have their own licenses, see the README.",
+        "data": {
+          "language": "Language"
+        }
       }
     },
     "error": {
       "download_failed": "Download from the Debian archive failed. Check your internet connection or add the files manually (see README, details in the log).",
       "no_fortunes": "No usable fortune files found for this language. Please see the README."
     },
-    "abort": { "single_instance_allowed": "Fortunes is already set up." }
+    "abort": {
+      "single_instance_allowed": "Fortunes is already set up."
+    }
   },
   "entity": {
-    "sensor": { "fortune": { "name": "Fortune" } },
-    "button": { "new_fortune": { "name": "New fortune" } },
+    "sensor": {
+      "fortune": {
+        "name": "Fortune"
+      }
+    },
+    "button": {
+      "new_fortune": {
+        "name": "New fortune"
+      }
+    },
     "select": {
       "language": {
         "name": "Language",
-        "state": { "de": "Deutsch", "en": "English", "fr": "Français", "es": "Español", "it": "Italiano" }
+        "state": {
+          "de": "Deutsch",
+          "en": "English",
+          "fr": "Français",
+          "es": "Español",
+          "it": "Italiano"
+        }
       }
     }
   }
